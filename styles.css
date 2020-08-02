@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+--------------------------------
+* NavBar Start Here
+--------------------------------
+*/
+nav {
+    width: 100%;
+}
+.nav-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-brand {
+    padding: 5px;
+}
+.developer_name {
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.contact_email {
+    float: right;
+    padding: 5px;
+}
+
+/*---- contact hover effect ---*/
+.navbar-brand:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*
+------------------------------------------
+jumbotron image start here
+------------------------------------------
+*/
+.card-img img {
+    height: 100vh;
+}
+.hero_hr {
+    border-color: white;
+}
+.card-img-overlay{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+
+}
+
+.hero_title {
+    font-size: 5rem;
+}
+
+.hero_lead {
+    font-size: 3rem;
+}
+
+/*
+----------------------
+Project Card Container
+----------------------
+*/
+.project-card-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.card-project-img {
+    width: 430px;
+
+}
+.project-card-body {
+    width: 500px;
+    float: left;
+}
+.project-card-body-two {
+    width: 500px;
+    float: right;
+
+}
+
+/*
+--------------------------
+CARD LINK
+--------------------------
+*/
+.card-link {
+    padding: 10px;
+}
+.card-link:hover {
+    background-color: #BAD1E8;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+a {
+    text-decoration: none;
+}
+.card-title:hover {
+    background-color: lightgray;
+    color: white;
+}
